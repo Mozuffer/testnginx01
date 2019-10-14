@@ -1,5 +1,3 @@
-FROM nginx:1.17.4-alpine
-
-COPY . /usr/share/nginx/html/
-USER 1001
+FROM centos/httpd-24-centos7
+COPY . /var/www/html/
 EXPOSE 80
