@@ -1,2 +1,2 @@
-FROM centos/httpd-24-centos7
-COPY . /var/www/html/
+FROM nginx:latest
+COPY . /usr/share/nginx/html/
